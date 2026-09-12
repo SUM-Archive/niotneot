@@ -141,6 +141,7 @@ export const SET = [
     title: "모닝뽀뽀",
     info: "나나투어, 뭐하는거야? 이쁘잖아",
     type: "bottomsheet",
+    bgImage: "/item-set-img/set4-bg-mobile.png",
     content: {
       links: [
         {

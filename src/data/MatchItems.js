@@ -13,7 +13,7 @@ function isRoomEmpty(room) {
 // 슬롯(top/outer/bottom/shoes) + acc 배열을 합쳐서 id 목록으로
 function getWornIds(wornItems) {
   const collectRoom = (room) => {
-    const slots = [room.top, room.outer, room.bottom, room.shoes].filter(Boolean);
+    const slots = [room.top, room.outer, room.bottom, room.socks, room.shoes].filter(Boolean);
     return [...slots, ...room.acc].map((item) => item.id);
   };
 
