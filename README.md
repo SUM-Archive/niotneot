@@ -1,16 +1,68 @@
-# React + Vite
+민규&정한 옷 입히기 웹 게임 프로젝트
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🧑‍💻 프로젝트 소개
 
-Currently, two official plugins are available:
+> 세븐틴 민규&정한 컨셉의 옷 입히기 웹 게임 사이트입니다.<br>
+> 사용자가 민규와 정한에게 다양한 의상을 조합해 입혀보고, 다른 캐릭터의 방에 있는 아이템을 입힐 수 있는 '훔쳐오기' 기능을 통해 재미 요소를 더했습니다. 
+> 또한 특정 조합을 완성하면 관련 비하인드 컨텐츠(인스타/목격담/영상 등)를 확인할 수 있습니다.<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 프로젝트명: 니옷내옷
+- 개발 기간: 2026.08.07 ~ 2026.09.02
+- 개발 인원: 2명
+- 주요 사용자: 세븐틴 팬
 
-## React Compiler
+<br>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![주요 화면 및 기능](./src/img/)
+## 🔗 배포 주소
 
-## Expanding the ESLint configuration
+[서비스 바로가기](https://niotneot-mjj.web.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<br>
+
+## ⚙️ 기술 스택
+
+- **프론트엔드**: React, Javacript, CSS
+- **빌드 도구**: Vite
+- **라이브러리**: React Router DOM, vaul, canvas-confetti
+- **디자인/이미지**: Gemini, Figma 
+- **기타**: GitHub, VSCode, Firebase
+
+<br>
+
+## 📂 프로젝트 구조
+```
+public
+├── character-img   # 캐릭터 이미지
+├── item-img        # 의상/아이템 이미지
+├── item-set-img    # 조합 세트 배경 이미지
+├── item-thumb-img  # 아이템 썸네일 이미지
+└── link-img        # 비하인드 링크 썸네일 이미지
+src
+├── assets
+│   └── img       # 버튼/말풍선 등 UI 이미지 리소스
+├── components    # 공통 컴포넌트
+├── css           # 스타일 파일
+├── data          # 아이템 및 조합 세트 데이터
+├── pages         # 페이지 컴포넌트
+├── App.jsx
+└── main.jsx
+```
+
+<br>
+
+## 🚀 실행 방법
+
+```bash
+npm install
+npm run dev
+```
+<br>
+
+## 📈 프로젝트 성과 (2026.09.13 기준)
+
+- 세븐틴 팬덤 대상 옷 입히기 웹 게임 서비스 개발
+- 캐릭터·의상 이미지 AI 생성으로 제작 리소스 확보
+- SNS 홍보를 통해 링크 클릭수 300회, 조회수 15.2천회 달성
+- 실사용자 피드백을 반영하여 아이템 조합 데이터 및 매칭 로직 개선하며 서비스 운영 경험 확보
+  
